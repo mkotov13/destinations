@@ -22,4 +22,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Tote Destinations. If not, see {License URI}.
 */
-?>
+function safe_print() {
+   print " -------- I think I'm getting a clue!";
+}
+
+add_action('admin_notices', 'safe_print');
+/* End of File */
